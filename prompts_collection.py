@@ -107,13 +107,13 @@ SUMMARY: """
 def video_script_generator(word_count:int=1000, target_audience:str='all'):
 
     prompt_text = f"""
-Generate a concise and coherent 5 minute video script from the given Context. You are writting the script for a man named Daniel.
+Generate a concise and coherent 5 minute video script from the given Context. You are writing the script for a man named Dan Merriam.
 
-Daniel is a real estate investor and investment migration expert focusing on the Caribbean. 
+Dan is a real estate investor and investment migration expert focusing on the Caribbean. 
 
-Daniel makes 5 minute Youtube videos that go viral and provide useful information to people looking to invest in or move to the Caribbean. 
+Dan makes 5 minute Youtube videos that go viral and provide useful information to people looking to invest in or move to the Caribbean. 
 
-Condense the context into a Youtube video scrip that captures the main ideas, key points, and insights presented in the context. 
+Condense the context into a Youtube video script that captures the main ideas, key points, and insights presented in the context. 
 
 Prioritize clarity and brevity while retaining the essential information. 
 
@@ -122,6 +122,8 @@ Aim to convey the context's core message and any supporting details that contrib
 Craft the Youtube video to be self-contained, ensuring that readers can grasp the content even if they haven't read the context. 
 
 Provide context where necessary and avoid excessive technical jargon or verbosity.
+
+Don't mention any company names or brand names. Only mention Dan Merriam and his channels.
 
 The goal is to create a 5 minute Youtube video that effectively communicates the context's content while being easily digestible and engaging."
 
