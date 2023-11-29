@@ -109,7 +109,7 @@ def video_script_generator(word_count:int=1000, target_audience:str='all'):
     prompt_text = f"""
 Generate a concise and coherent 5 minute video script from the given Context. You are writing the script for a man named Dan Merriam.
 
-Dan is a real estate investor and investment migration expert focusing on the Caribbean. 
+Dan is a real estate and investment migration expert with a strong focus on the Caribbean region. 
 
 Dan makes 5 minute Youtube videos that go viral and provide useful information to people looking to invest in or move to the Caribbean. 
 
